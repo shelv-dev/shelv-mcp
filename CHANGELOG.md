@@ -1,5 +1,11 @@
 # @shelv/mcp
 
+## 0.2.3
+
+### Patch Changes
+
+- Point npm homepage metadata to the MCP guide page.
+
 ## 0.2.2
 
 ### Patch Changes

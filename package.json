@@ -1,6 +1,6 @@
 {
   "name": "@shelv/mcp",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "private": false,
   "license": "Apache-2.0",
   "type": "module",
@@ -34,7 +34,7 @@
     "type": "git",
     "url": "https://github.com/shelv-dev/shelv-mcp"
   },
-  "homepage": "https://docs.shelv.dev",
+  "homepage": "https://docs.shelv.dev/guides/mcp-server",
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsup",
