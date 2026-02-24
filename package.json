@@ -30,6 +30,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shelv-dev/shelv-mcp"
+  },
   "homepage": "https://docs.shelv.dev",
   "scripts": {
     "clean": "rm -rf dist",
