@@ -1,5 +1,13 @@
 # @shelv/mcp
 
+## 0.2.2
+
+### Patch Changes
+
+- Update npm README links for website, docs, and package metadata.
+- Updated dependencies [d612ad5]
+  - @shelv/adapters@0.1.3
+
 ## 0.2.1
 
 ### Patch Changes
