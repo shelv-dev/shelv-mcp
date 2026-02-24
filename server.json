@@ -1,0 +1,15 @@
+{
+  "name": "@shelv/mcp",
+  "description": "Shelv MCP server for structured document shelves",
+  "version": "0.2.0",
+  "package": "@shelv/mcp",
+  "bin": "shelv-mcp",
+  "transports": ["stdio", "http"],
+  "env": [
+    "SHELV_API_KEY",
+    "SHELV_MCP_TRANSPORT",
+    "SHELV_MCP_HTTP_HOST",
+    "SHELV_MCP_HTTP_PORT",
+    "SHELV_MCP_ENABLE_WRITE_TOOLS"
+  ]
+}

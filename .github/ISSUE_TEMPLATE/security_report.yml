@@ -1,0 +1,11 @@
+name: Security report
+description: Private security issues should be reported by email
+title: "[Security]: "
+labels: ["security"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post vulnerability details publicly.
+
+        Please email founders@shelv.dev with reproduction and impact details.

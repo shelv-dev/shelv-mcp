@@ -1,0 +1,53 @@
+{
+  "name": "@shelv/mcp",
+  "version": "0.2.1",
+  "private": false,
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "shelv-mcp": "./dist/bin/shelv-mcp.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "server.json"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://docs.shelv.dev",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsup",
+    "lint": "eslint .",
+    "type-check": "tsc --noEmit",
+    "test": "tsx --test src/*.test.ts src/**/*.test.ts",
+    "prepack": "pnpm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "@shelv/adapters": "^0.1.1",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsup": "^8.5.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.3"
+  }
+}

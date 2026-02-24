@@ -1,0 +1,30 @@
+name: PR Guard
+
+on:
+  pull_request_target:
+    types: [opened, reopened, synchronize]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  mirror_policy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment on pull request
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = [
+              "Thanks for the contribution.",
+              "",
+              "This repository currently runs in mirror-only mode for code changes.",
+              "Please open an issue with details; maintainers will port approved changes from the private source repository.",
+            ].join("\n");
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.pull_request.number,
+              body,
+            });
