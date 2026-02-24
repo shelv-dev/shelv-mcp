@@ -58,4 +58,4 @@ Write tools are disabled by default and become available only when
 
 Apache-2.0.
 
-Source code: [github.com/shelv/shelv-mcp](https://github.com/shelv/shelv-mcp)
+Source code: [github.com/shelv-dev/shelv-mcp](https://github.com/shelv-dev/shelv-mcp)
