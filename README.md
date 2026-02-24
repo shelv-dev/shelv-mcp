@@ -2,6 +2,13 @@
 
 MCP server for Shelv shelf operations.
 
+## Links
+
+- Website: [shelv.dev](https://shelv.dev)
+- Docs: [docs.shelv.dev/guides/mcp-server](https://docs.shelv.dev/guides/mcp-server)
+- npm: [npmjs.com/package/@shelv/mcp](https://www.npmjs.com/package/@shelv/mcp)
+- Source: [github.com/shelv-dev/shelv-mcp](https://github.com/shelv-dev/shelv-mcp)
+
 ## Install
 
 ```bash
@@ -57,5 +64,3 @@ Write tools are disabled by default and become available only when
 ## License
 
 Apache-2.0.
-
-Source code: [github.com/shelv-dev/shelv-mcp](https://github.com/shelv-dev/shelv-mcp)
