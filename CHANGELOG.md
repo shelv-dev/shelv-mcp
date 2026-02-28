@@ -1,5 +1,12 @@
 # @shelv/mcp
 
+## 0.2.4
+
+### Patch Changes
+
+- Updated dependencies [64c2189]
+  - @shelv/adapters@0.2.0
+
 ## 0.2.3
 
 ### Patch Changes
