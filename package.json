@@ -1,6 +1,6 @@
 {
   "name": "@shelv/mcp",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "private": false,
   "license": "Apache-2.0",
   "type": "module",
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.26.0",
-    "@shelv/adapters": "^0.2.0",
+    "@shelv/adapters": "^0.3.0",
     "zod": "^3.24.0"
   },
   "devDependencies": {
